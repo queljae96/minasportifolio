@@ -1,120 +1,120 @@
 <!DOCTYPE html>
 
-<html lang = "pt-br">
-      <head>
-           <title>quel portifolio</title>
-           <meta charset="utf-8">
-           <meta name="descricao" content="meu portifolio">
-           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
-        </head>
+<html lang="pt br">
+    <head> <!--cabeça do site onde fica as informações que o usuário não vê-->
+        <title>tech: meu portifólio</title>
+        <meta charset="utf-8"> <!--meta:ajuda o site a se destacar na internet / utf-8: ajuda o site a reconhecer caracteres especiais-->
+        <meta name="descrição" content="meu portifólio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--<style>
+            body {
+                background-color:whitesmoke;
+            }
+        </style>-->
+    </head>
 
-        <body>
-            <!--cabeçalho-->
-            <header>
-                <nav>
+    <body>
+        <header class="header-menu">    <!--introdução/cabeçlho-->
+           <nav>
+             <ul class="lista-menu">
+                <li><a href="#formação">Formação</a></li>
+                <li><a href="#portifólio">Portifólio</a></li>
+                <li><a href="#contatos">Contato</a></li>
+             </ul>
+           </nav>
+        </header>
+       <!-- <h1>meu primeiro site</h1> 
+            meu primeiro parágrafo -->
+       
+        <main>
+          <section class="principal">
+              <article class="subcontainer-principal container">
+                  <div>
+                    <img src="img/KL.jpeg">
+                  </div>
+
+                  <div>
+                    <h1 class="nome-completo">Raquel Gomes Monteiro</h1>
+                    <h2 class='profissão'>Programadora e desenvolvedora iniciante</h2>
+                  </div>
+
+                  <div class="texto-sobre">
+                    <p>Sou a Raquel,tenho 17 anos e moro em MG.Sou programadora e desenvolvedora iniciante,amo ler e adoro tecnologia #ltecnologiaéofuturo</p>
+                  </div>
+              </article>
+         </section>
+
+          <section>
+             <article id="formacao">
+                 <div>
+                    <h3 class="topico-principal">Formação</h3>
+                 </div>
+
+                 <div class="lista-item">
                     <ul>
-                        <li>formação</li>
-                        <li>portifólio</li>
-                        <li>contatos</li>
-         
-                     
+                        <li>
+                           <h4 class="lista-titulo">Curso de programação</h4>
+                           <p class="lista-descricao">Fazendo um curso de programação no <a href="https://minasprogramam.com" target="_blank">Instituto Minas Programam</a></p>
+                        </li>
+             
+                        <li>
+                            <h4 class="lista-titulo">Curso de Desenvolvimento de Sistemas</h4>
+                            <p class="lista-descricao">Fazendo um curso de Desenvolvimento de Sistemas no <a href="https://www7.fiemg.com.br/senai" target="_blank">SENAI</a></p>
+                        </li>
+             
+                        <li>
+                            <h4 class="lista-titulo">Ensino médio</h4>
+                            <p class="lista-descricao">Cursando o segundo ano do ensino médio na <a href="https://www.mg.gov.br/instituicao_unidade/escola-estadual-augusto-de-lima-2" target="_blank">Escola Estadual Augusto de Lima</a></p>
+                        </li>
                     </ul>
-                </nav>
-            </header>
+                 </div>
+             </article>
+         </section>
+                 
+          <section class="wrapper-portifolio">
+            <article id="portifólio" class="container article-lista">
+                <div>
+                    <h3 class="topico-principal">Portifólio</h3>
+                </div>
 
-            <main>
-                <section>
-                    <article>
-                        <div>
-                            <img src="img/iol.png">
-                        </div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                            <p class="lista-titulo">minas programam</p>
+                            <p class="lista-descricao">Fazendo um curso de Programação e Desenvolvimento de Sistemas para adquir conhecimento</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+          </section>
+        </main>
 
-                        <div>
-                            <h1>Raquel Gomes Monteiro</h1>
-                            <h2>Desenvolvedora iniciante</h2>
-                        </div>
+        <footer class="footer">
+         <div class="container">
+            <ul id="contatos" class="lista-footer">
+                <li>
+                    <i class="far fa-envelope"></i>
+                    <a class="link"href="mailto:quel03102004@gmail.com">quel03102004@gmail.com</a>
+                    
+                </li>
 
-                        <div>
-                            <p>Programadora iniciante,tenho 17 anos e moro em MG.Amo tecnologia e ouvir música #leitura#tecnologiaeofuturo tecnologia é vida</p>
-                            
-                        </div>
-                    </article>
-                </section>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                    <a  class="link" href="https://www.instagram.com/qu3l_gm/" target="_blank"> @qu3l_gm</a>
+                   
+                </li>
 
+                <li>
+                    <i class="fab fa-github-square"></i>
+                    <a class="link" href="https://github.com/queljae96" target="_blank" >queljae96</a>
+                </li>
+            </ul>
+         </div>
+        </footer>
 
-                <section>
-                    <article>
-                        <div> <h3>Formação</h3>
-                            <div>
-                            <ul>
-                                <li>
-                                    <h4>Curso de Programação</h4>
-                                    <a href="https://minasprogramam.com" target="blank">Instituto Minas Programam</a>
-                                    <p>fazendo o curso de programação no Minasprogramam</p>
-                                </li>
-                                
-           
-                                <li>
-                                    <h4>Curso de Desenvolvimento de Sistemas</h4 
-                                    ><a href="https://www7.fiemg.com.br/senai" target="blank">SENAI</a>
-                                    ><p>Fazendo o curso de Desenvolvimento de Sistemas no SENAI</p>
-                                </li>
-           
-                                <li>
-                                    <h4>Ensino Medio</h4>
-                                    <a href="https://www.mg.gov.br/instituicao_unidade/escola-estadual-augusto-de-lima-2" target="blank"> Escola Estadual Augusto de Lima</a>
-                                    <p>Cursando o segundo ano do ensino médio</p>
-                                </li>
-                          </ul>
-                        </div>
-                    </article>
-                </section>
+    </body>
 
-
-                <section>
-                    <article>
-                        <div>
-                            <h3>Portifólio</h3>
-                        </div>
-                        <div>
-                         <ul>
-                            <li>
-                                <h4> programadora iniciante</h4>
-                                <p> fazendo um curso de programação no <a href="https://minasprogramam.com" target="blank">Instituto Minas Programam</a></p>
-                            </li>
-                        </ul>
-                         </div>
-                        
-                       
-                    </article>
-                </section>
-            </main>
-
-            <footer>
-                <ul>
-
-                    <li>
-                        <i class="far fa-envelope"></i>
-                            <a href="mailto:quel03102004@gmail.com">quel03102004@gmail.com</a>
-                        </i> 
-                    </li>
-
-
-                    <li>
-                        <i class="fab fa-instagram"></i>
-                            <a href="https://www.instagram.com/qu3l_gm/" target="blank">@qu3l_gm</a>
-                        </i> 
-                    </li>
-                         
-                    <li>
-                        <i class="fab fa-github-square"></i>
-                            <a href="https://github.com/queljae96"target="blank">@queljae96</a>
-                        </i> 
-                    </li>
-                </ul>
-            </footer>
-           
-
-            </body>
 </html>
